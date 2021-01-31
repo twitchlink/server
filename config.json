@@ -1,0 +1,12 @@
+{
+    "ads": {
+        "en": {
+            "AD_SERVER": null,
+            "SHOW_ADS": false
+        },
+        "ko": {
+            "AD_SERVER": null,
+            "SHOW_ADS": false
+        }
+    }
+}

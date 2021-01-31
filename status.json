@@ -1,0 +1,18 @@
+{
+    "status": {
+        "running": true,
+        "message": {
+            "en": null,
+            "ko": null
+        }
+    },
+    "notice": {
+        "en": null,
+        "ko": null
+    },
+    "version": {
+        "versionNo": "1.0.0",
+        "updateRequired": true,
+        "updateUrl": "https://twitchlink.github.io"
+    }
+}
