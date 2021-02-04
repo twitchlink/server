@@ -11,8 +11,12 @@
         "ko": null
     },
     "version": {
-        "versionNo": "1.0.0",
+        "versionNo": "1.0.1",
         "updateRequired": true,
+        "updateNote": {
+            "en": null,
+            "ko": null
+        },
         "updateUrl": "https://twitchlink.github.io"
     }
 }
