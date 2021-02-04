@@ -12,7 +12,7 @@
     },
     "version": {
         "versionNo": "1.0.1",
-        "updateRequired": true,
+        "updateRequired": false,
         "updateNote": {
             "en": null,
             "ko": null
