@@ -5,7 +5,7 @@
             "SHOW_ADS": false
         },
         "ko": {
-            "AD_SERVER": "http://www.quizland.kr/api/ads/",
+            "AD_SERVER": "http://www.quizland.kr/api/ads/adfit/",
             "SHOW_ADS": true
         }
     }
