@@ -18,7 +18,7 @@
     },
     "version": {
         "versionNo": "1.0.3",
-        "updateRequired": false,
+        "updateRequired": true,
         "updateNote": {
             "en": "Bug fixes and improvements\n\nSome bugs were fixed.\nSome features were improved.",
             "ko": "버그 수정 및 개선\n\n일부 버그가 수정되었습니다.\n일부 기능이 개선되었습니다."
