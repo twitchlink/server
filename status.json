@@ -8,12 +8,12 @@
     },
     "notice": {
         "en": {
-            "message": null,
-            "url": null
+            "message": "Having trouble using TwitchLink? Check out how to use it!",
+            "url": "https://twitchlink.github.io/help?lang=en"
         },
         "ko": {
-            "message": "잠깐!\n다운로드한 영상을 저작권자의 허가 없이 공유, 매매하는 행위는 저작권법에 위배됩니다.",
-            "url": null
+            "message": "TwitchLink 사용법이 업데이트되었습니다!",
+            "url": "https://twitchlink.github.io/help?lang=ko"
         }
     },
     "version": {
