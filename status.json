@@ -12,8 +12,8 @@
             "url": null
         },
         "ko": {
-            "message": "곧 TwitchLink의 새로운 버전이 공개됩니다!",
-            "url": "https://twitchlink.github.io/download?lang=ko"
+            "message": null,
+            "url": null
         }
     },
     "version": {
