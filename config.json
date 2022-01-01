@@ -1,12 +1,36 @@
 {
-    "ads": {
+    "global": {
+        "SEARCH_HELPER:CHANNEL_ID_EXAMPLES": [
+            "twitch",
+            "devhotteok"
+        ],
+        "SEARCH_HELPER:VIDEO_CLIP_ID_EXAMPLES": [
+            "00000000",
+            "12345678",
+            "SlugExampleHelloTwitch",
+            "TwitchClipSlug"
+        ],
+        "SEARCH_HELPER:URL_EXAMPLES": [
+            "https://www.twitch.tv/<channel>",
+            "https://www.twitch.tv/videos/<videoID>",
+            "https://www.twitch.tv/<channel>/video/<videoID>",
+            "https://clips.twitch.tv/<slug>",
+            "https://www.twitch.tv/<channel>/clips/<slug>",
+            "https://xxxxxxxxxx/index-dvr.m3u8"
+        ],
+        "CONTACT.DISCORD": "DevHotteok#6437",
+        "CONTACT.EMAIL": "devhotteok@gmail.com"
+    },
+    "local": {
         "en": {
-            "AD_SERVER": null,
-            "SHOW_ADS": false
+            "AD:SHOW": false,
+            "AD:SERVER": "",
+            "AD:URL_QUERY": ""
         },
         "ko": {
-            "AD_SERVER": "http://www.quizland.kr/api/ads/adfit/",
-            "SHOW_ADS": true
+            "AD:SHOW": true,
+            "AD:SERVER": "http://www.quizland.kr/api/ads/adfit/",
+            "AD:URL_QUERY": "width={width}&height={height}"
         }
     }
 }
