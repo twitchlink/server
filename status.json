@@ -11,11 +11,11 @@
         }
     },
     "version": {
-        "latestVersion": "1.1.0",
+        "latestVersion": "1.1.1",
         "compatibleVersions": [],
         "updateNote": {
-            "en": null,
-            "ko": null
+            "en": "Fixed an issue where the program crashed when downloading clips.",
+            "ko": "클립 다운로드 시 프로그램이 강제 종료되는 문제를 해결하였습니다."
         },
         "updateUrl": "https://twitchlink.github.io/"
     }
