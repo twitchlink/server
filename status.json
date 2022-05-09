@@ -14,14 +14,6 @@
         "latestVersion": "2.0.0",
         "compatibleVersions": ["1.1.1"],
         "updateNote": {
-            "en": {
-                "content": "",
-                "contentType": ""
-            },
-            "ko": {
-                "content": "",
-                "contentType": ""
-            }
         },
         "updateUrl": "https://twitchlink.github.io/"
     }
