@@ -1,21 +1,27 @@
 {
     "operational": true,
-    "notice": {
+    "operationalInfo": {
         "en": {
-            "message": "How to download files in mp4 or mp3 format\n\n1. In the Download Menu, click the Browse button.\n2. You can change the extension at the bottom of the window.\n\nIn version 2.0.0, which will be released later, the UI will be changed to be more intuitive.",
-            "url": "https://twitchlink.github.io/download/"
+            "content": "",
+            "contentType": ""
         },
         "ko": {
-            "message": "파일을 mp4 또는 mp3 형식으로 다운로드하는 방법\n\n1. 다운로드 메뉴에서 찾아보기 버튼을 누릅니다.\n2. 파일 탐색기 하단에서 확장자를 변경할 수 있습니다.\n\n추후 배포될 2.0.0 버전에서는 더 직관적으로 확인할 수 있도록 UI가 변경될 예정입니다.",
-            "url": "https://twitchlink.github.io/download/?lang=ko"
+            "content": "",
+            "contentType": ""
         }
     },
     "version": {
-        "latestVersion": "1.1.1",
-        "compatibleVersions": [],
+        "latestVersion": "2.0.0",
+        "compatibleVersions": ["1.1.1"],
         "updateNote": {
-            "en": "Fixed an issue where the program crashed when downloading clips.",
-            "ko": "클립 다운로드 시 프로그램이 강제 종료되는 문제를 해결하였습니다."
+            "en": {
+                "content": "",
+                "contentType": ""
+            },
+            "ko": {
+                "content": "",
+                "contentType": ""
+            }
         },
         "updateUrl": "https://twitchlink.github.io/"
     }

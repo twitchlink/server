@@ -15,11 +15,10 @@
             "https://www.twitch.tv/videos/<videoID>",
             "https://www.twitch.tv/<channel>/video/<videoID>",
             "https://clips.twitch.tv/<slug>",
-            "https://www.twitch.tv/<channel>/clips/<slug>",
-            "https://xxxxxxxxxx/index-dvr.m3u8"
+            "https://www.twitch.tv/<channel>/clips/<slug>"
         ],
-        "CONTACT.DISCORD": "DevHotteok#6437",
-        "CONTACT.EMAIL": "devhotteok@gmail.com"
+        "CONTACT.DISCORD": "https://discord.gg/4p8ytb2rkt",
+        "CONTACT.EMAIL": "twitchlinkhelp@gmail.com"
     },
     "local": {
         "en": {
@@ -29,7 +28,7 @@
         },
         "ko": {
             "AD:SHOW": true,
-            "AD:SERVER": "http://www.quizland.kr/api/ads/adfit/",
+            "AD:SERVER": "https://www.quizland.kr/api/ads/adfit/",
             "AD:URL_QUERY": "width={width}&height={height}"
         }
     }
