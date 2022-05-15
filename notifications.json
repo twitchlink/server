@@ -33,6 +33,17 @@
                     "role": "accept"
                 }
             ]
+        },
+        {
+            "title": "사용 중 오류가 발생하나요?",
+            "content": "<h2>사용 중 오류가 발생하나요?</h2><h3>오류 제보 및 지원받기</h3>1. 오류가 발생한 직후 파일 탐색기를 엽니다.<br/>2. 주소창에 '%temp%\\TwitchLink'라고 입력합니다.<br/>3. 증상과 함께 폴더 내부의 로그 파일(txt 파일)들을 아래 연락처로 보냅니다.<br/><br/>디스코드: https://discord.gg/4p8ytb2rkt<br/>이메일: twitchlinkhelp@gmail.com",
+            "buttons": [
+                {
+                    "text": "확인",
+                    "role": "accept",
+                    "default": true
+                }
+            ]
         }
     ]
 }
