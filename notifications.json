@@ -18,25 +18,6 @@
                     "role": "reject"
                 }
             ]
-        },
-        {
-            "contentId": "UpdateInfo2.0",
-            "contentVersion": "2022.06.19",
-            "title": "Thanks for using TwitchLink 2.0",
-            "content": "<h2>What are the changes?</h2><br/><h3>[General]</h3>Network speed has been improved.<br/>You can view detailed logs.<br/>Fixed an issue with excessive memory(RAM) usage.<br/>Software optimized and stabilized.<br/><h3>[Search]</h3>You can refresh the search results.<br/>You can keep multiple search results in tabs.<br/>Fixed an issue where the search function would not correctly distinguish between video IDs and clip IDs under certain conditions.<br/><h3>[Settings]</h3>Fixed an issue where data was not saved correctly under certain conditions.<br/><h3>[Download]</h3>Supports parallel downloads.<br/>You can set the download priority.<br/>Fixed an issue where downloads could not be completed in a probability(mostly stuck at 99%).<br/>Live download blocks ads.<br/>Secured stability of live downloads.<br/>Keeps previously used folders, extensions, and additional options depending on the file type.<br/>You can schedule an action to take place after all downloads are complete.",
-            "blockExpiry": null,
-            "buttons": [
-                {
-                    "text": "Details",
-                    "action": "open:https://twitchlink.github.io/download/",
-                    "role": "action",
-                    "default": true
-                },
-                {
-                    "text": "OK",
-                    "role": "accept"
-                }
-            ]
         }
     ],
     "ko": [
@@ -56,25 +37,6 @@
                 {
                     "text": "취소",
                     "role": "reject"
-                }
-            ]
-        },
-        {
-            "contentId": "UpdateInfo2.0",
-            "contentVersion": "2022.06.19",
-            "title": "TwitchLink 2.0을 사용해 주셔서 감사합니다.",
-            "content": "<h2>무엇이 바뀌었나요?</h2><br/><h3>[일반]</h3>네트워크 속도가 향상되었습니다.<br/>상세한 로그 기록을 볼 수 있습니다.<br/>메모리(RAM)가 과도하게 사용되는 문제를 해결하였습니다.<br/>소프트웨어 최적화 및 안정화를 진행하였습니다.<br/><h3>[검색]</h3>검색 결과를 새로고침할 수 있습니다.<br/>여러 검색 결과를 탭으로 유지할 수 있습니다.<br/>특정 조건에서 검색 기능이 비디오 아이디와 클립 아이디를 올바르게 구별하지 못하는 문제를 해결하였습니다.<br/><h3>[설정]</h3>특정 조건에서 데이터가 올바르게 저장되지 않는 문제를 해결하였습니다.<br/><h3>[다운로드]</h3>동시에 여러 다운로드를 진행할 수 있습니다.<br/>다운로드 우선순위를 설정할 수 있습니다.<br/>확률적으로 다운로드가 완료되지 않는 문제(주로 99%에서 멈추는 문제)를 해결하였습니다.<br/>실시간 다운로드가 생방송 광고를 차단하여 다운로드합니다.<br/>실시간 다운로드의 안정성을 확보하였습니다.<br/>파일 형식에 따라 이전에 사용한 폴더, 확장자, 추가 옵션을 유지합니다.<br/>다운로드 완료 이후 수행할 작업을 예약할 수 있습니다.",
-            "blockExpiry": null,
-            "buttons": [
-                {
-                    "text": "자세히",
-                    "action": "open:https://twitchlink.github.io/download/?lang=ko",
-                    "role": "action",
-                    "default": true
-                },
-                {
-                    "text": "확인",
-                    "role": "accept"
                 }
             ]
         },
