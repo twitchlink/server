@@ -1,21 +1,23 @@
 {
     "global": {
         "SEARCH_HELPER:CHANNEL_ID_EXAMPLES": [
-            "twitch",
-            "devhotteok"
+            ["channel", "twitch"],
+            ["channel", "devhotteok"]
         ],
-        "SEARCH_HELPER:VIDEO_CLIP_ID_EXAMPLES": [
-            "00000000",
-            "12345678",
-            "SlugExampleHelloTwitch",
-            "TwitchClipSlug"
+        "SEARCH_HELPER:VIDEO_ID_EXAMPLES": [
+            ["video", "00000000"],
+            ["video", "12345678"]
+        ],
+        "SEARCH_HELPER:CLIP_ID_EXAMPLES": [
+            ["clip", "SlugExampleHelloTwitch"],
+            ["clip", "TwitchClipSlug"]
         ],
         "SEARCH_HELPER:URL_EXAMPLES": [
-            "https://www.twitch.tv/<channel>",
-            "https://www.twitch.tv/videos/<videoID>",
-            "https://www.twitch.tv/<channel>/video/<videoID>",
-            "https://clips.twitch.tv/<slug>",
-            "https://www.twitch.tv/<channel>/clips/<slug>"
+            ["channel", "https://www.twitch.tv/<channel>"],
+            ["video", "https://www.twitch.tv/videos/<videoID>"],
+            ["video", "https://www.twitch.tv/<channel>/video/<videoID>"],
+            ["clip", "https://clips.twitch.tv/<slug>"],
+            ["clip", "https://www.twitch.tv/<channel>/clips/<slug>"]
         ],
         "CONTACT.DISCORD": "https://discord.gg/4p8ytb2rkt",
         "CONTACT.EMAIL": "twitchlinkhelp@gmail.com"
