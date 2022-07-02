@@ -58,6 +58,20 @@
                     "default": true
                 }
             ]
+        },
+        {
+            "contentId": "TwitchApiErrorInfo",
+            "contentVersion": "2022.07.02",
+            "title": "Twitch API 오류 안내",
+            "content": "<h2>[Twitch API 오류 안내]</h2><h3>현재 존재하지 않는 클립이 검색되는 현상이 발생하고 있습니다.<br/>이는 TwitchLink의 오류가 아니라 Twitch 측의 API 오류에 의한 것입니다.<br/>추후 Twitch에서 API 오류를 수정하면 자동으로 고쳐지는 현상입니다.</h3>",
+            "modal": true,
+            "buttons": [
+                {
+                    "text": "확인",
+                    "role": "accept",
+                    "default": true
+                }
+            ]
         }
     ]
 }
