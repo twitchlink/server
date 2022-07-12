@@ -29,9 +29,10 @@
             "AD:URL_QUERY": ""
         },
         "ko": {
-            "AD:SHOW": false,
+            "AD:SHOW": true,
             "AD:SERVER": "https://www.quizland.kr/api/ads/adfit/",
-            "AD:URL_QUERY": "width={width}&height={height}"
+            "AD:URL_QUERY": "width={width}&height={height}",
+            "AD:FREQUENCY": 6
         }
     }
 }
