@@ -12,7 +12,7 @@
     },
     "version": {
         "latestVersion": "2.2.0",
-        "compatibleVersions": ["2.1.0"],
+        "compatibleVersions": [],
         "updateNote": {
             "en": {
                 "content": "<h2>TwitchLink 2.2.0 has been released!</h2><hr/><h3>New features and bug fixes</h3>- Added a new feature that allows you to quickly download with the previous option without opening the download menu.(Useful when doing a lot of downloads.)<br/>- You can retry a failed or canceled download.<br/>- You can now view and manage your download history.<br/>- You can start a new download based on your download history.<br/>- Improved Update Tracking mode.<br/>- Improved video cropping.<br/>- You can optimize your video.(Maintains video quality but significantly reduces file size.)<br/>- Fixed an issue where the app would crash under certain situations.<br/>- Some bugs were fixed.<br/>- Some features were improved.",
