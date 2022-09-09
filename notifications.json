@@ -18,6 +18,21 @@
                     "role": "reject"
                 }
             ]
+        },
+        {
+            "contentId": "OptimizeFileBeta",
+            "contentVersion": "2022.09.02",
+            "title": "'Optimize File' Feature in TwitchLink 2.2",
+            "content": "<h2>'Optimize File' Feature in TwitchLink 2.2</h2><div style=\"font-size: 12pt;\">The 'Optimize File' option currently available for live broadcasts and video downloads is currently in beta.</div><div style=\"font-size: 12pt;\">It can still use your PC's resources inefficiently and may not be stable.</div><div style=\"font-size: 12pt;\">It's currently not recommended for those whose videos are important, such as streamers and editors.</div><div style=\"font-size: 12pt;\">During the beta period, we recommend that you use it only in special cases, such as when you run out of storage capacity or the video needs to be cropped correctly, and use it when it is updated with full functionality later.</div>",
+            "contentType": "html",
+            "blockExpiry": null,
+            "buttons": [
+                {
+                    "text": "OK",
+                    "role": "accept",
+                    "default": true
+                }
+            ]
         }
     ],
     "ko": [
@@ -43,8 +58,8 @@
         {
             "contentId": "OptimizeFileBeta",
             "contentVersion": "2022.09.02",
-            "title": "TwitchLink 2.2.0의 파일 최적화 기능",
-            "content": "<h2>TwitchLink 2.2.0의 파일 최적화 기능</h2><div style=\"font-size: 12pt;\">현재 TwitchLink 2.2.0에서 생방송과 비디오 다운로드에 제공되고 있는 '파일 최적화' 옵션은 베타 기능입니다.</div><div style=\"font-size: 12pt;\">아직 PC의 리소스를 비효율적으로 사용할 수 있으며, 안정성을 보장하지 않습니다.</div><div style=\"font-size: 12pt;\">스트리머나 편집자 등 영상의 원본이 중요한 사용자들에게는 현재 권장하지 않습니다.</div><div style=\"font-size: 12pt;\">베타 기간 동안에는 용량이 부족하거나 비디오를 정확하게 자르는 등의 특수한 경우에만 사용하고 추후 정식 기능으로 업데이트되면 사용하는 것을 권장합니다.</div><br/><h3>* 기능 개선을 위한 건의나 도움의 손길을 환영합니다. 이메일 또는 Discord 채널로 건의하거나 GitHub 이슈로 올려주세요.</h3><div style=\"font-size: 10pt;\">[---GitHub 이슈 등록 시 주의사항---]</div><div style=\"font-size: 10pt;\">- TwitchLink는 글로벌 오픈소스입니다. 때문에 Discord 채널이나 이메일에서는 한글로 문의하시면 한글로 답해드리지만 GitHub와 같은 공식 개발/배포 페이지에서는 영어만 사용합니다. 불편하시더라도 영어로 작성해 주시고 불가하다면 Discord 채널이나 이메일을 사용해 주시기 바랍니다.</div><div style=\"font-size: 10pt;\">- 중복 이슈를 생성하지 않도록 주의해주시기 바랍니다.</div><div style=\"font-size: 10pt;\">- 이슈 내용에 링크를 첨부하는 행위는 지양해주시기 바랍니다. 링크가 아닌 실제 내용을 입력해주시기 바랍니다.</div><br/><div style=\"font-size: 10pt;\">GitHub: https://github.com/devhotteok/TwitchLink</div><div style=\"font-size: 10pt;\">디스코드: https://discord.gg/4p8ytb2rkt</div><div style=\"font-size: 10pt;\">이메일: twitchlinkhelp@gmail.com</div>",
+            "title": "TwitchLink 2.2의 파일 최적화 기능",
+            "content": "<h2>TwitchLink 2.2의 파일 최적화 기능</h2><div style=\"font-size: 12pt;\">현재 TwitchLink 2.2.0에서 생방송과 비디오 다운로드에 제공되고 있는 '파일 최적화' 옵션은 베타 기능입니다.</div><div style=\"font-size: 12pt;\">아직 PC의 리소스를 비효율적으로 사용할 수 있으며, 안정성을 보장하지 않습니다.</div><div style=\"font-size: 12pt;\">스트리머나 편집자 등 영상의 원본이 중요한 사용자들에게는 현재 권장하지 않습니다.</div><div style=\"font-size: 12pt;\">베타 기간 동안에는 용량이 부족하거나 비디오를 정확하게 자르는 등의 특수한 경우에만 사용하고 추후 정식 기능으로 업데이트되면 사용하는 것을 권장합니다.</div><br/><h3>* 기능 개선을 위한 건의나 도움의 손길을 환영합니다. 이메일 또는 Discord 채널로 건의하거나 GitHub 이슈로 올려주세요.</h3><div style=\"font-size: 10pt;\">[---GitHub 이슈 등록 시 주의사항---]</div><div style=\"font-size: 10pt;\">- TwitchLink는 글로벌 오픈소스입니다. 때문에 Discord 채널이나 이메일에서는 한글로 문의하시면 한글로 답해드리지만 GitHub와 같은 공식 개발/배포 페이지에서는 영어만 사용합니다. 불편하시더라도 영어로 작성해 주시고 불가하다면 Discord 채널이나 이메일을 사용해 주시기 바랍니다.</div><div style=\"font-size: 10pt;\">- 중복 이슈를 생성하지 않도록 주의해주시기 바랍니다.</div><div style=\"font-size: 10pt;\">- 이슈 내용에 링크를 첨부하는 행위는 지양해주시기 바랍니다. 링크가 아닌 실제 내용을 입력해주시기 바랍니다.</div><br/><div style=\"font-size: 10pt;\">GitHub: https://github.com/devhotteok/TwitchLink</div><div style=\"font-size: 10pt;\">디스코드: https://discord.gg/4p8ytb2rkt</div><div style=\"font-size: 10pt;\">이메일: twitchlinkhelp@gmail.com</div>",
             "contentType": "html",
             "blockExpiry": null,
             "buttons": [
