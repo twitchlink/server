@@ -37,41 +37,21 @@
     ],
     "ko": [
         {
-            "contentId": "SupportInfo",
-            "contentVersion": "2022.06.19",
-            "title": "사용 중 오류가 발생하나요?",
-            "content": "<h2>사용 중 오류가 발생하나요?</h2><h3>오류 제보 및 지원받기</h3>1. 파일 탐색기를 엽니다.<br/>2. 주소창에 '%temp%\\TwitchLink'라고 입력합니다.<br/>3. 증상과 함께 폴더 내부의 로그 파일(log 파일)들을 아래 연락처로 보냅니다.<br/><br/>디스코드: https://discord.gg/4p8ytb2rkt<br/>이메일: twitchlinkhelp@gmail.com",
-            "blockExpiry": 7,
+            "contentId": "TwitchKoreaVOD",
+            "contentVersion": "2022.11.10",
+            "title": "VOD 콘텐츠에 관한 Twitch 코리아 업데이트 및 약관 변경의 건",
+            "content": "https://blog.twitch.tv/ko-kr/2022/11/09/vod-%EC%BD%98%ED%85%90%EC%B8%A0%EC%97%90-%EA%B4%80%ED%95%9C-twitch-%EC%BD%94%EB%A6%AC%EC%95%84-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EB%B0%8F-%EC%95%BD%EA%B4%80-%EB%B3%80%EA%B2%BD%EC%9D%98-%EA%B1%B4/",
+            "contentType": "url",
+            "modal": true,
             "buttons": [
                 {
-                    "text": "GitHub 열기",
-                    "action": "open:https://github.com/devhotteok/TwitchLink",
-                    "role": "action"
+                    "text": "확인",
+                    "role": "accept"
                 },
                 {
-                    "text": "확인",
-                    "role": "accept",
-                    "default": true
-                }
-            ]
-        },
-        {
-            "contentId": "OptimizeFileBeta",
-            "contentVersion": "2022.09.02",
-            "title": "TwitchLink 2.2의 파일 최적화 기능",
-            "content": "<h2>TwitchLink 2.2의 파일 최적화 기능</h2><div style=\"font-size: 12pt;\">현재 TwitchLink 2.2.0에서 생방송과 비디오 다운로드에 제공되고 있는 '파일 최적화' 옵션은 베타 기능입니다.</div><div style=\"font-size: 12pt;\">아직 PC의 리소스를 비효율적으로 사용할 수 있으며, 안정성을 보장하지 않습니다.</div><div style=\"font-size: 12pt;\">스트리머나 편집자 등 영상의 원본이 중요한 사용자들에게는 현재 권장하지 않습니다.</div><div style=\"font-size: 12pt;\">베타 기간 동안에는 용량이 부족하거나 비디오를 정확하게 자르는 등의 특수한 경우에만 사용하고 추후 정식 기능으로 업데이트되면 사용하는 것을 권장합니다.</div><br/><h3>* 기능 개선을 위한 건의나 도움의 손길을 환영합니다. 이메일 또는 Discord 채널로 건의하거나 GitHub 이슈로 올려주세요.</h3><div style=\"font-size: 10pt;\">[---GitHub 이슈 등록 시 주의사항---]</div><div style=\"font-size: 10pt;\">- TwitchLink는 글로벌 오픈소스입니다. 때문에 Discord 채널이나 이메일에서는 한글로 문의하시면 한글로 답해드리지만 GitHub와 같은 공식 개발/배포 페이지에서는 영어만 사용합니다. 불편하시더라도 영어로 작성해 주시고 불가하다면 Discord 채널이나 이메일을 사용해 주시기 바랍니다.</div><div style=\"font-size: 10pt;\">- 중복 이슈를 생성하지 않도록 주의해주시기 바랍니다.</div><div style=\"font-size: 10pt;\">- 이슈 내용에 링크를 첨부하는 행위는 지양해주시기 바랍니다. 링크가 아닌 실제 내용을 입력해주시기 바랍니다.</div><br/><div style=\"font-size: 10pt;\">GitHub: https://github.com/devhotteok/TwitchLink</div><div style=\"font-size: 10pt;\">디스코드: https://discord.gg/4p8ytb2rkt</div><div style=\"font-size: 10pt;\">이메일: twitchlinkhelp@gmail.com</div>",
-            "contentType": "html",
-            "blockExpiry": null,
-            "buttons": [
-                {
-                    "text": "GitHub 열기",
-                    "action": "open:https://github.com/devhotteok/TwitchLink",
+                    "text": "웹 브라우저로 열기",
+                    "action": "open:https://blog.twitch.tv/ko-kr/2022/11/09/vod-%EC%BD%98%ED%85%90%EC%B8%A0%EC%97%90-%EA%B4%80%ED%95%9C-twitch-%EC%BD%94%EB%A6%AC%EC%95%84-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EB%B0%8F-%EC%95%BD%EA%B4%80-%EB%B3%80%EA%B2%BD%EC%9D%98-%EA%B1%B4/",
                     "role": "action"
-                },
-                {
-                    "text": "확인",
-                    "role": "accept",
-                    "default": true
                 }
             ]
         }
