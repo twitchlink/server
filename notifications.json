@@ -42,7 +42,7 @@
             "title": "VOD 콘텐츠에 관한 Twitch 코리아 업데이트 및 약관 변경의 건",
             "content": "https://blog.twitch.tv/ko-kr/2022/11/09/vod-%EC%BD%98%ED%85%90%EC%B8%A0%EC%97%90-%EA%B4%80%ED%95%9C-twitch-%EC%BD%94%EB%A6%AC%EC%95%84-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EB%B0%8F-%EC%95%BD%EA%B4%80-%EB%B3%80%EA%B2%BD%EC%9D%98-%EA%B1%B4/",
             "contentType": "url",
-            "modal": true,
+            "modal": false,
             "buttons": [
                 {
                     "text": "확인",
