@@ -12,7 +12,7 @@
     },
     "version": {
         "latestVersion": "2.2.2",
-        "compatibleVersions": ["2.2.1"],
+        "compatibleVersions": [],
         "updateNote": {
         },
         "updateUrl": "https://twitchlink.github.io/"
