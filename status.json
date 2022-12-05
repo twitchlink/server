@@ -1,4 +1,6 @@
 {
+    "session": "2022.12.05",
+    "sessionStrict": true,
     "operational": true,
     "operationalInfo": {
         "en": {
@@ -11,7 +13,7 @@
         }
     },
     "version": {
-        "latestVersion": "2.2.2",
+        "latestVersion": "2.2.3",
         "compatibleVersions": [],
         "updateNote": {
         },
