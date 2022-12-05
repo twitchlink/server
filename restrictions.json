@@ -1,19 +1,7 @@
 {
-    "channel": {
-        "280291103": {
-            "stream": {
-                "en": null,
-                "ko": null
-            }
+    "280291103": {
+        "stream": {
+            "*": null
         }
-    },
-    "stream": {
-
-    },
-    "video": {
-
-    },
-    "clip": {
-
     }
 }
