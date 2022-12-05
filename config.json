@@ -19,8 +19,10 @@
             ["clip", "https://clips.twitch.tv/<slug>"],
             ["clip", "https://www.twitch.tv/<channel>/clips/<slug>"]
         ],
-        "CONTACT.DISCORD": "https://discord.gg/4p8ytb2rkt",
-        "CONTACT.EMAIL": "twitchlinkhelp@gmail.com"
+        "CONTACT": {
+            "Discord": "https://discord.gg/4p8ytb2rkt",
+            "Email": "twitchlinkhelp@gmail.com"
+        }
     },
     "local": {
         "en": {
