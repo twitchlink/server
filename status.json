@@ -1,6 +1,6 @@
 {
-    "session": "2022.12.05",
-    "sessionStrict": true,
+    "session": "2023.02.08",
+    "sessionStrict": false,
     "operational": true,
     "operationalInfo": {
         "en": {
@@ -13,15 +13,15 @@
         }
     },
     "version": {
-        "latestVersion": "2.3.0",
-        "compatibleVersions": ["2.2.3", "2.3.0"],
+        "latestVersion": "2.3.1",
+        "compatibleVersions": ["2.2.3", "2.3.0", "2.3.1"],
         "updateNote": {
             "en": {
-                "content": "<h2>TwitchLink 2.3.0 has been released!</h2><hr/><h3>New Features and Improvements</h3>- 'Scheduled downloads' has been added.(You can now schedule the download to start automatically when the live broadcast begins.)<br/>- Some bugs were fixed.<br/>- Some features were improved.",
+                "content": "<h2>TwitchLink 2.3.1 has been released!</h2><hr/><h3>Bug Fixes and Improvements</h3>- Some bugs were fixed.<br/>- Some features were improved.",
                 "contentType": "html"
             },
             "ko": {
-                "content": "<h2>TwitchLink 2.3.0 버전이 출시되었습니다!</h2><hr/><h3>새로운 기능 및 개선</h3>- '예약 다운로드' 기능이 추가되었습니다.(이제 생방송이 시작되면 자동으로 다운로드하도록 설정할 수 있습니다.)<br/>- 일부 버그가 수정되었습니다.<br/>- 일부 기능이 개선되었습니다.",
+                "content": "<h2>TwitchLink 2.3.1 버전이 출시되었습니다!</h2><hr/><h3>버그 수정 및 개선</h3>- 일부 버그가 수정되었습니다.<br/>- 일부 기능이 개선되었습니다.",
                 "contentType": "html"
             }
         },
