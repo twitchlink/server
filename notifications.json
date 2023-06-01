@@ -54,6 +54,25 @@
                     "role": "action"
                 }
             ]
+        },
+        {
+            "contentId": "2.4.0UpdateInfo",
+            "contentVersion": "2023.06.01",
+            "title": "2.4.0 호환 문제",
+            "content": "<h2>2.4.0 호환 문제</h2><div style=\"font-size: 12pt;\">TwitchLink 2.4.0에 문제가 있다면 아래 링크를 통해 공식 홈페이지에서 호환되는 이전 버전을 설치하세요.</div><div style=\"font-size: 12pt;\">(최근 발생한 '일시적인 오류' 문제는 TwitchLink 2.3.2에서도 수정되었습니다.)</div>",
+            "contentType": "text",
+            "blockExpiry": null,
+            "buttons": [
+                {
+                    "text": "확인",
+                    "role": "accept"
+                },
+                {
+                    "text": "열기",
+                    "action": "open:https://twitchlink.github.io/download/?lang=ko",
+                    "role": "action"
+                }
+            ]
         }
     ]
 }
