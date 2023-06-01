@@ -14,7 +14,7 @@
     },
     "version": {
         "latestVersion": "2.4.0",
-        "compatibleVersions": ["2.4.0"],
+        "compatibleVersions": ["2.3.2", "2.4.0"],
         "updateNote": {
             "en": {
                 "content": "<h2>TwitchLink 2.4.0 has been released!</h2><hr/><h3>New Features and Improvements</h3>- Added ability to run in the background.(Minimize to system tray)<br/>- Some bugs were fixed.<br/>- Some features were improved.",
