@@ -14,7 +14,7 @@
     },
     "version": {
         "latestVersion": "2.3.2",
-        "compatibleVersions": ["2.3.2"],
+        "compatibleVersions": ["2.3.2", "2.4.0"],
         "updateNote": {
             "en": {
                 "content": "<h2>TwitchLink 2.3.2 has been released!</h2><hr/><h3>Bug Fixes and Improvements</h3>- Some bugs were fixed.<br/>- Some features were improved.",
