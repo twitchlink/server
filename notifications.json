@@ -18,60 +18,30 @@
                     "role": "reject"
                 }
             ]
-        },
-        {
-            "contentId": "OptimizeFileBeta",
-            "contentVersion": "2022.09.02",
-            "title": "'Optimize File' Feature in TwitchLink 2.2",
-            "content": "<h2>'Optimize File' Feature in TwitchLink 2.2</h2><div style=\"font-size: 12pt;\">The 'Optimize File' option currently available for live broadcasts and video downloads is currently in beta.</div><div style=\"font-size: 12pt;\">It can still use your PC's resources inefficiently and may not be stable.</div><div style=\"font-size: 12pt;\">It's currently not recommended for those whose videos are important, such as streamers and editors.</div><div style=\"font-size: 12pt;\">During the beta period, we recommend that you use it only in special cases, such as when you run out of storage capacity or the video needs to be cropped correctly, and use it when it is updated with full functionality later.</div>",
-            "contentType": "html",
-            "blockExpiry": null,
-            "buttons": [
-                {
-                    "text": "OK",
-                    "role": "accept",
-                    "default": true
-                }
-            ]
         }
     ],
     "ko": [
         {
-            "contentId": "TwitchKoreaVOD",
-            "contentVersion": "2022.11.10",
-            "title": "VOD 콘텐츠에 관한 Twitch 코리아 업데이트 및 약관 변경의 건",
-            "content": "https://blog.twitch.tv/ko-kr/2022/11/09/vod-%EC%BD%98%ED%85%90%EC%B8%A0%EC%97%90-%EA%B4%80%ED%95%9C-twitch-%EC%BD%94%EB%A6%AC%EC%95%84-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EB%B0%8F-%EC%95%BD%EA%B4%80-%EB%B3%80%EA%B2%BD%EC%9D%98-%EA%B1%B4/",
-            "contentType": "url",
-            "blockExpiry": null,
+            "contentId": "3.0.0UpdateInfo",
+            "contentVersion": "2023.07.29",
+            "title": "TwitchLink 3.0.0",
+            "content": "<h3>차기 버전인 TwitchLink 3.0.0에 대해 알아보세요.</h3>",
+            "contentType": "html",
+            "blockExpiration": null,
             "buttons": [
                 {
                     "text": "확인",
+                    "action": "open:https://twitchlink.github.io/download/?lang=ko",
                     "role": "accept"
                 },
                 {
-                    "text": "웹 브라우저로 열기",
-                    "action": "open:https://blog.twitch.tv/ko-kr/2022/11/09/vod-%EC%BD%98%ED%85%90%EC%B8%A0%EC%97%90-%EA%B4%80%ED%95%9C-twitch-%EC%BD%94%EB%A6%AC%EC%95%84-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EB%B0%8F-%EC%95%BD%EA%B4%80-%EB%B3%80%EA%B2%BD%EC%9D%98-%EA%B1%B4/",
+                    "text": "지원하기",
+                    "action": "open:https://twitchlink.github.io/donate/?lang=ko",
                     "role": "action"
-                }
-            ]
-        },
-        {
-            "contentId": "2.4.0SetupInfo",
-            "contentVersion": "2023.06.02",
-            "title": "TwitchLinkSetup-2.4.0 설치 파일 안내",
-            "content": "<h2>TwitchLinkSetup-2.4.0 설치 파일 안내</h2><div style=\"font-size: 12pt;\">TwitchLinkSetup-2.4.0 설치 파일에 일부 호환성 문제가 발견되어 해당 문제가 해결된 버전으로 교체되었습니다.</div><div style=\"font-size: 12pt;\">기존 Setup파일을 통해 설치된 프로그램에서 문제가 발생한다면 아래 링크에서 새로운 Setup 파일을 다운로드하여 사용해보세요.</div>",
-            "contentType": "text",
-            "modal": true,
-            "blockExpiry": null,
-            "buttons": [
-                {
-                    "text": "확인",
-                    "role": "accept"
                 },
                 {
-                    "text": "열기",
-                    "action": "open:https://twitchlink.github.io/?lang=ko",
-                    "role": "action"
+                    "text": "취소",
+                    "role": "reject"
                 }
             ]
         }
