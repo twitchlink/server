@@ -27,7 +27,7 @@
             "title": "차기 버전인 TwitchLink 3.0.0에 대해 알아보세요.",
             "content": "https://twitchlink.github.io/?popup=3.0.0&lang=ko",
             "contentType": "url",
-            "blockExpiration": 30,
+            "blockExpiry": null,
             "buttons": [
                 {
                     "text": "확인",
