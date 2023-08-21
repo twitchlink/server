@@ -23,7 +23,7 @@
         {
             "contentId": "3.0.0UpdateInfo",
             "contentVersion": "2023.08.21",
-            "title": "Changes in TwitchLink 3.0.0",
+            "title": "Changes in TwitchLink 3.0",
             "content": "https://twitchlink.github.io/?popup=3.0.0",
             "contentType": "url",
             "blockExpiration": null,
@@ -44,9 +44,28 @@
         {
             "contentId": "3.0.0UpdateInfo",
             "contentVersion": "2023.08.21",
-            "title": "TwitchLink 3.0.0 무엇이 바뀌었나요?",
+            "title": "TwitchLink 3.0 무엇이 바뀌었나요?",
             "content": "https://twitchlink.github.io/?popup=3.0.0&lang=ko",
             "contentType": "url",
+            "blockExpiration": null,
+            "buttons": [
+                {
+                    "text": "자세히",
+                    "action": "url:https://twitchlink.github.io/download/?lang=ko",
+                    "role": "accept"
+                },
+                {
+                    "text": "확인",
+                    "role": "accept"
+                }
+            ]
+        },
+        {
+            "contentId": "3.0DownloaderInfo",
+            "contentVersion": "2023.08.21",
+            "title": "TwitchLink 3.0 다운로드 관련 주요 변경사항",
+            "content": "다운로드 엔진을 처음부터 재설계하였습니다.\n다운로드 및 예약 다운로드에서 발생하던 다양한 문제들이 해결되거나 개선되었습니다.\n\n- 생방송 인식을 하지 못하거나 느리게 인식하던 현상\n- 예약 다운로드의 파일이 분할되는 현상\n- 낮은 확률로 생방송이 종료된 이후 별도의 파일에 생방송의 마지막 30초를 다시 다운로드하던 현상\n- 낮은 확률로 실시간 다운로드가 도중에 멈추는 현상\n- 낮은 확률로 예약 다운로드에서 실제 파일과 함께 빈 파일이 추가로 생성되는 현상\n\n실시간 다운로드의 안정성을 확보하였습니다.\n네트워크 회복 기능이 강화되었습니다.\n다운로드 도중 네트워크에 문제가 발생하여도 약 30초 이내에 복구가 이루어진다면 손실이 발생하지 않습니다.\n실시간 다운로드의 손실 확률을 최소화하였으며 네트워크 등의 문제로 생방송에 손실이 있다면 실시간으로 세부 정보를 표시합니다.\n이제 실시간 다운로드가 자동으로 생방송 광고를 차단하며 차단된 광고의 구간 수와 길이를 확인할 수 있습니다. (이전 버전에서는 광고 대체화면이 표시되었으나 이제 대체화면이 표시되지 않습니다.)\n* 단, 광고가 송출되는 시간 동안의 영상은 다운로드되지 않으며 영상이 중간에 끊어진 것처럼 보일 수 있습니다.\n* 이러한 현상을 방지하려면 채널을 구독한 계정 또는 Twitch Turbo 등의 광고 혜택이 있는 계정으로 로그인하세요.",
+            "contentType": "text",
             "blockExpiration": null,
             "buttons": [
                 {
