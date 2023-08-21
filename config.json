@@ -24,17 +24,5 @@
         }
     },
     "local": {
-        "en": {
-            "PARTNER_CONTENT:ENABLED": false,
-            "PARTNER_CONTENT:SERVER": "",
-            "PARTNER_CONTENT:URL_QUERY": ""
-        },
-        "ko": {
-            "CONTACT": {},
-            "PARTNER_CONTENT:ENABLED": true,
-            "PARTNER_CONTENT:SERVER": "https://www.quizland.kr/api/ads/adfit/",
-            "PARTNER_CONTENT:URL_QUERY": "width={width}&height={height}",
-            "PARTNER_CONTENT:IN_FEED_FREQUENCY": 6
-        }
     }
 }
