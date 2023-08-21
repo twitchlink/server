@@ -1,5 +1,5 @@
 {
-    "session": "2023.06.01",
+    "session": "2023.08.21",
     "sessionStrict": false,
     "operational": true,
     "operationalInfo": {
@@ -13,16 +13,16 @@
         }
     },
     "version": {
-        "latestVersion": "2.4.0",
-        "compatibleVersions": ["2.3.2", "2.4.0"],
+        "latestVersion": "3.0.0",
+        "compatibleVersions": ["3.0.0"],
         "updateNote": {
             "en": {
-                "content": "<h2>TwitchLink 2.4.0 has been released!</h2><hr/><h3>New Features and Improvements</h3>- Added ability to run in the background.(Minimize to system tray)<br/>- Some bugs were fixed.<br/>- Some features were improved.",
-                "contentType": "html"
+                "content": "https://twitchlink.github.io/?popup=3.0.0",
+                "contentType": "url"
             },
             "ko": {
-                "content": "<h2>TwitchLink 2.4.0 버전이 출시되었습니다!</h2><hr/><h3>새로운 기능 및 개선</h3>- 앱을 백그라운드에서 실행할 수 있습니다.(시스템 트레이로 최소화)<br/>- 일부 버그가 수정되었습니다.<br/>- 일부 기능이 개선되었습니다.",
-                "contentType": "html"
+                "content": "https://twitchlink.github.io/?popup=3.0.0&lang=ko",
+                "contentType": "url"
             }
         },
         "updateUrl": "https://twitchlink.github.io/"
