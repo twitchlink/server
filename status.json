@@ -13,8 +13,8 @@
         }
     },
     "version": {
-        "latestVersion": "3.0.0",
-        "compatibleVersions": ["3.0.0"],
+        "latestVersion": "3.0.1",
+        "compatibleVersions": ["3.0.0", "3.0.1"],
         "updateNote": {
             "en": {
                 "content": "https://twitchlink.github.io/?popup=3.0.0",
