@@ -1,7 +1,5 @@
 {
     "global": {
-        "API:CLIENT_ID": "kd1unb4b3q4t58fwlpcbzcbnm76a8fp",
-        "PLAYBACK:GQL_CLIENT_ID": "kd1unb4b3q4t58fwlpcbzcbnm76a8fp",
         "SEARCH_HELPER:CHANNEL_ID_EXAMPLES": [
             ["channel", "twitch"],
             ["channel", "devhotteok"]
@@ -22,21 +20,21 @@
             ["clip", "https://www.twitch.tv/<channel>/clips/<slug>"]
         ],
         "CONTACT": {
-            "Discord": "https://discord.gg/4p8ytb2rkt",
             "Email": "twitchlinkhelp@gmail.com"
         }
     },
     "local": {
         "en": {
-            "AD:SHOW": false,
-            "AD:SERVER": "",
-            "AD:URL_QUERY": ""
+            "PARTNER_CONTENT:ENABLED": false,
+            "PARTNER_CONTENT:SERVER": "",
+            "PARTNER_CONTENT:URL_QUERY": ""
         },
         "ko": {
-            "AD:SHOW": true,
-            "AD:SERVER": "https://www.quizland.kr/api/ads/adfit/",
-            "AD:URL_QUERY": "width={width}&height={height}",
-            "AD:FREQUENCY": 6
+            "CONTACT": {},
+            "PARTNER_CONTENT:ENABLED": false,
+            "PARTNER_CONTENT:SERVER": "https://www.quizland.kr/api/ads/adfit/",
+            "PARTNER_CONTENT:URL_QUERY": "width={width}&height={height}",
+            "PARTNER_CONTENT:IN_FEED_FREQUENCY": 6
         }
     }
 }
