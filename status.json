@@ -13,16 +13,16 @@
         }
     },
     "version": {
-        "latestVersion": "3.0.3",
+        "latestVersion": "3.0.4",
         "requiredVersion": "3.0.0",
-        "compatibleVersions": ["2.3.2", "2.4.0", "3.0.0", "3.0.1", "3.0.2", "3.0.3"],
+        "compatibleVersions": ["2.3.2", "2.4.0", "3.0.0", "3.0.1", "3.0.2", "3.0.3", "3.0.4"],
         "updateNote": {
             "en": {
-                "content": "https://twitchlink.github.io/?popup=3.0.3",
+                "content": "https://twitchlink.github.io/?popup=3.0.4",
                 "contentType": "url"
             },
             "ko": {
-                "content": "https://twitchlink.github.io/?popup=3.0.3&lang=ko",
+                "content": "https://twitchlink.github.io/?popup=3.0.4&lang=ko",
                 "contentType": "url"
             }
         },
