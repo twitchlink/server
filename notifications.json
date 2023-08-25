@@ -22,7 +22,7 @@
             ]
         },
         {
-            "targetVersion": ["3.0.0", "3.0.1", "3.0.2", "3.0.3", "3.0.4"],
+            "targetVersion": ["3.0.0", "3.0.1", "3.0.2", "3.0.3", "3.0.4", "3.1.0"],
             "contentId": "3.0.0UpdateInfo",
             "contentVersion": "2023.08.21",
             "title": "Changes in TwitchLink 3.0",
@@ -45,7 +45,7 @@
     ],
     "ko": [
         {
-            "targetVersion": ["3.0.0", "3.0.1", "3.0.2", "3.0.3", "3.0.4"],
+            "targetVersion": ["3.0.0", "3.0.1", "3.0.2", "3.0.3", "3.0.4", "3.1.0"],
             "contentId": "3.0.0UpdateInfo",
             "contentVersion": "2023.08.21",
             "title": "TwitchLink 3.0 무엇이 바뀌었나요?",
@@ -70,7 +70,7 @@
             "contentId": "3.0CrashReason",
             "contentVersion": "2023.08.23",
             "title": "TwitchLink 강제종료 문제 해결됨",
-            "content": "<!DOCTYPE html><html><body><div><h1>TwitchLink 강제종료 문제 해결됨</h1><br/><p>현재 파악된 로그기록과 코드 내용을 기반으로 추정하는 원인은 다음과 같습니다.</p><br/><p>강제종료의 원인은 TwitchLink가 내부적으로 사용하고 있는 <span class=\"highlight\">PyQt 프레임워크의 QNetworkReply와 관련된 문제</span>로 파악됩니다.</p><p>이 오류는 아주 낮은 확률로 네트워크가 불안정할 때 PyQt 내부에서 발생하는 것으로 파악됩니다.</p><p>즉, TwitchLink의 문제가 아닌 TwitchLink를 구동하는 소프트웨어의 문제로 인해 발생한 오류입니다.</p><br/><p>관련 문의 대부분이 VPN 환경을 사용했다고 서술하는 것으로 보아 네트워크가 불안할 때 <span class=\"highlight\">아주 낮은 확률로 발생하는 오류</span>가 <span class=\"highlight\">VPN으로 인해 자주 발생</span>했던 것으로 보입니다.</p><p>3.0.0 출시 전 충분한 테스트를 거쳤으나 해당 오류는 특정 환경에서 낮은 확률로 발생하는 오류라 사전에 감지하지 못했습니다.</p><br/><p><span class=\"highlight\">현재는 내부적인 추가 작업으로 해당 오류가 발생하지 않도록 처리하였습니다. (TwitchLink 3.0.3)</span></p><p>다만 VPN 문제는 TwitchLink와는 아무 관련이 없으니 GitHub Issue 또는 이메일로의 문의를 자제하기 바랍니다.</p><br/><p>관련 오류가 수정된 이상 다음 기능들도 정상적으로 동작할 것으로 기대하고 있습니다.</p><br/><p>예) 다운로드 도중 네트워크가 끊어져도 약 30초 이내에 복구된다면 손실이 발생하지 않습니다.</p><p>예) 생방송에 손실이 있다면 실시간으로 세부 정보를 표시합니다.</p><p>예) Remux 모드는 원본 스트림의 메타데이터를 모두 그대로 유지합니다.</p><br/><p>* 단, 이 모든 기능들은 네트워크가 성능과 속도 모두 안정적일 때 작동을 보장합니다.</p><p>* VPN 또는 다른 이유로 네트워크 자체에 문제가 있다면 손실이 발생할 수 있으며 그러한 문제는 TwitchLink와 전혀 관련이 없습니다.</p><br/><p><span class=\"highlight\">* 이제 3.0.0 이전 버전을 사용하다가 업데이트하더라도 설정 데이터가 초기화되지 않고 그대로 유지됩니다. (TwitchLink 3.0.2 / TwitchLink 3.0.3)</span></p></div><style>@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');* {font-family: 'Nanum Gothic', sans-serif;}p {margin: unset;}.highlight {color: red;font-weight: bold;}</style></body></html>",
+            "content": "<!DOCTYPE html><html><body><div><h1>TwitchLink 강제종료 문제 해결됨</h1><br/><p>현재 파악된 로그기록과 코드 내용을 기반으로 추정하는 원인은 다음과 같습니다.</p><br/><p>강제종료의 원인은 TwitchLink가 내부적으로 사용하고 있는 <span class=\"highlight\">PyQt 프레임워크의 QNetworkReply와 관련된 문제</span>로 파악됩니다.</p><p>이 오류는 아주 낮은 확률로 네트워크가 불안정할 때 PyQt 내부에서 발생하는 것으로 파악됩니다.</p><p>즉, TwitchLink의 문제가 아닌 TwitchLink를 구동하는 소프트웨어의 문제로 인해 발생한 오류입니다.</p><br/><p>관련 문의 대부분이 VPN 환경을 사용했다고 서술하는 것으로 보아 네트워크가 불안할 때 <span class=\"highlight\">아주 낮은 확률로 발생하는 오류</span>가 <span class=\"highlight\">VPN으로 인해 자주 발생</span>했던 것으로 보입니다.</p><p>3.0.0 출시 전 충분한 테스트를 거쳤으나 해당 오류는 특정 환경에서 낮은 확률로 발생하는 오류라 사전에 감지하지 못했습니다.</p><br/><p><span class=\"highlight\">현재는 내부적인 추가 작업으로 해당 오류가 발생하지 않도록 처리하였습니다. (TwitchLink 3.0.3)</span></p><p>다만 VPN 문제는 TwitchLink와는 아무 관련이 없으니 GitHub Issue 또는 이메일로의 문의를 자제하기 바랍니다.</p><br/><p>관련 오류가 수정된 이상 다음 기능들도 정상적으로 동작할 것으로 기대하고 있습니다.</p><br/><p>예) 다운로드 도중 네트워크가 끊어져도 약 30초 이내에 복구된다면 손실이 발생하지 않습니다.</p><p>예) 생방송에 손실이 있다면 실시간으로 세부 정보를 표시합니다.</p><p>예) Remux 모드는 원본 스트림의 메타데이터를 모두 그대로 유지합니다.</p><br/><p>* 단, 이 모든 기능들은 네트워크가 성능과 속도 모두 안정적일 때 작동을 보장합니다.</p><p>* VPN 또는 다른 이유로 네트워크 자체에 문제가 있다면 손실이 발생할 수 있으며 그러한 문제는 TwitchLink와 전혀 관련이 없습니다.</p><br/><p><span class=\"highlight\">* 이제 3.0.0 이전 버전을 사용하다가 업데이트하더라도 설정 데이터가 초기화되지 않고 그대로 유지됩니다. (TwitchLink 3.0.2)</span></p></div><style>@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');* {font-family: 'Nanum Gothic', sans-serif;}p {margin: unset;}.highlight {color: red;font-weight: bold;}</style></body></html>",
             "contentType": "html",
             "blockExpiration": 3,
             "blockExpiry": false,
