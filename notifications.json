@@ -41,6 +41,21 @@
                     "role": "accept"
                 }
             ]
+        },
+        {
+            "targetVersion": ["2.3.2", "2.4.0"],
+            "contentId": "DeprecationNotice",
+            "contentVersion": "2023.09.04",
+            "title": "Support for this version will soon end.",
+            "content": "In order to reliably provide the latest software features and services, support for lower versions will soon end.\nSupport for this version will end after September 11, 2023.\nPlease update to the latest version.",
+            "contentType": "text",
+            "modal": true,
+            "buttons": [
+                {
+                    "text": "OK",
+                    "role": "accept"
+                }
+            ]
         }
     ],
     "ko": [
@@ -66,22 +81,6 @@
             ]
         },
         {
-            "targetVersion": ["2.3.2", "2.4.0", "3.0.0", "3.0.1", "3.0.2"],
-            "contentId": "3.0CrashReason",
-            "contentVersion": "2023.08.23",
-            "title": "TwitchLink 강제종료 문제 해결됨",
-            "content": "<!DOCTYPE html><html><body><div><h1>TwitchLink 강제종료 문제 해결됨</h1><br/><p>현재 파악된 로그기록과 코드 내용을 기반으로 추정하는 원인은 다음과 같습니다.</p><br/><p>강제종료의 원인은 TwitchLink가 내부적으로 사용하고 있는 <span class=\"highlight\">PyQt 프레임워크의 QNetworkReply와 관련된 문제</span>로 파악됩니다.</p><p>이 오류는 아주 낮은 확률로 네트워크가 불안정할 때 PyQt 내부에서 발생하는 것으로 파악됩니다.</p><p>즉, TwitchLink의 문제가 아닌 TwitchLink를 구동하는 소프트웨어의 문제로 인해 발생한 오류입니다.</p><br/><p>관련 문의 대부분이 VPN 환경을 사용했다고 서술하는 것으로 보아 네트워크가 불안할 때 <span class=\"highlight\">아주 낮은 확률로 발생하는 오류</span>가 <span class=\"highlight\">VPN으로 인해 자주 발생</span>했던 것으로 보입니다.</p><p>3.0.0 출시 전 충분한 테스트를 거쳤으나 해당 오류는 특정 환경에서 낮은 확률로 발생하는 오류라 사전에 감지하지 못했습니다.</p><br/><p><span class=\"highlight\">현재는 내부적인 추가 작업으로 해당 오류가 발생하지 않도록 처리하였습니다. (TwitchLink 3.0.3)</span></p><p>다만 VPN 문제는 TwitchLink와는 아무 관련이 없으니 GitHub Issue 또는 이메일로의 문의를 자제하기 바랍니다.</p><br/><p>관련 오류가 수정된 이상 다음 기능들도 정상적으로 동작할 것으로 기대하고 있습니다.</p><br/><p>예) 다운로드 도중 네트워크가 끊어져도 약 30초 이내에 복구된다면 손실이 발생하지 않습니다.</p><p>예) 생방송에 손실이 있다면 실시간으로 세부 정보를 표시합니다.</p><p>예) Remux 모드는 원본 스트림의 메타데이터를 모두 그대로 유지합니다.</p><br/><p>* 단, 이 모든 기능들은 네트워크가 성능과 속도 모두 안정적일 때 작동을 보장합니다.</p><p>* VPN 또는 다른 이유로 네트워크 자체에 문제가 있다면 손실이 발생할 수 있으며 그러한 문제는 TwitchLink와 전혀 관련이 없습니다.</p><br/><p><span class=\"highlight\">* 이제 3.0.0 이전 버전을 사용하다가 업데이트하더라도 설정 데이터가 초기화되지 않고 그대로 유지됩니다. (TwitchLink 3.0.2)</span></p></div><style>@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');* {font-family: 'Nanum Gothic', sans-serif;}p {margin: unset;}.highlight {color: red;font-weight: bold;}</style></body></html>",
-            "contentType": "html",
-            "blockExpiration": 3,
-            "blockExpiry": false,
-            "buttons": [
-                {
-                    "text": "확인",
-                    "role": "accept"
-                }
-            ]
-        },
-        {
             "contentId": "3.0FAQ",
             "contentVersion": "2023.08.25",
             "title": "TwitchLink 3.0 버전 핵심 기능에 대한 FAQ",
@@ -96,6 +95,36 @@
                     "role": "accept",
                     "default": true
                 },
+                {
+                    "text": "확인",
+                    "role": "accept"
+                }
+            ]
+        },
+        {
+            "targetVersion": ["3.0.0", "3.0.1", "3.0.2", "3.0.3", "3.0.4", "3.1.0", "3.1.1", "3.1.2"],
+            "contentId": "MissingSegments",
+            "contentVersion": "2023.09.04",
+            "title": "구간 누락 안내",
+            "content": "3.0 버전에서 구간 누락이 표시되는 이유는 프로그램 문제가 아니라 사용자 개인의 네트워크 문제입니다.\n\n네트워크 불안정으로 인해 누락되는 현상은 하위 버전에도 동일하게 존재했으나 하위 버전은 구간 누락을 표시하는 기능을 제공하지 않았기에 표시되지 않았던 것입니다.\n사용자 개인의 네트워크 성능을 점검하세요.\n\n3.0에서 강화된 네트워크 회복 기능은 안정적인 네트워크가 일시적인 문제로 잠시 끊어졌을 때 누락을 방지하는 기능입니다.\n네트워크가 지속적으로 불안정하거나 속도가 느린 등의 근본적인 문제는 사용자가 직접 해결해야 하는 문제입니다.",
+            "contentType": "text",
+            "blockExpiration": null,
+            "buttons": [
+                {
+                    "text": "확인",
+                    "role": "accept"
+                }
+            ]
+        },
+        {
+            "targetVersion": ["2.3.2", "2.4.0"],
+            "contentId": "DeprecationNotice",
+            "contentVersion": "2023.09.04",
+            "title": "이 버전은 곧 지원이 종료됩니다.",
+            "content": "최신 소프트웨어의 기능과 서비스를 안정적으로 제공하기 위해 하위 버전의 곧 지원을 종료합니다.\n이 버전은 2023.09.11. 이후로 지원이 종료됩니다.\n최신 버전으로 업데이트하세요.",
+            "contentType": "text",
+            "modal": true,
+            "buttons": [
                 {
                     "text": "확인",
                     "role": "accept"
