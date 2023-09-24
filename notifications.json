@@ -22,27 +22,6 @@
             ]
         },
         {
-            "targetVersion": ["3.0.0", "3.0.1", "3.0.2", "3.0.3", "3.0.4", "3.1.0", "3.1.1", "3.1.2"],
-            "contentId": "3.0.0UpdateInfo",
-            "contentVersion": "2023.08.21",
-            "title": "Changes in TwitchLink 3.0",
-            "content": "https://twitchlink.github.io/?popup=3.0.0",
-            "contentType": "url",
-            "blockExpiration": null,
-            "blockExpiry": null,
-            "buttons": [
-                {
-                    "text": "Details",
-                    "action": "url:https://twitchlink.github.io/download/",
-                    "role": "accept"
-                },
-                {
-                    "text": "OK",
-                    "role": "accept"
-                }
-            ]
-        },
-        {
             "targetVersion": ["2.3.2", "2.4.0"],
             "contentId": "DeprecationNotice",
             "contentVersion": "2023.09.04",
@@ -59,63 +38,6 @@
         }
     ],
     "ko": [
-        {
-            "targetVersion": ["3.0.0", "3.0.1", "3.0.2", "3.0.3", "3.0.4", "3.1.0", "3.1.1", "3.1.2"],
-            "contentId": "3.0.0UpdateInfo",
-            "contentVersion": "2023.08.21",
-            "title": "TwitchLink 3.0 무엇이 바뀌었나요?",
-            "content": "https://twitchlink.github.io/?popup=3.0.0&lang=ko",
-            "contentType": "url",
-            "blockExpiration": null,
-            "blockExpiry": null,
-            "buttons": [
-                {
-                    "text": "자세히",
-                    "action": "url:https://twitchlink.github.io/download/?lang=ko",
-                    "role": "accept"
-                },
-                {
-                    "text": "확인",
-                    "role": "accept"
-                }
-            ]
-        },
-        {
-            "contentId": "3.0FAQ",
-            "contentVersion": "2023.08.25",
-            "title": "TwitchLink 3.0 버전 핵심 기능에 대한 FAQ",
-            "content": "<!DOCTYPE html><html> <body> <div> <p class=\"title\">------------------------------ FAQ 1 ------------------------------</p> <br/> <p class=\"ask\">이게 무슨 말인가요?</p> <br/> <div style=\"padding: 5px; background: rgba(211, 211, 211, 0.3);\"> <p>*** 3.0.0 업데이트 내역 중 ***</p> <p>네트워크 회복 기능이 강화되었습니다.</p> <p>다운로드 도중 네트워크에 문제가 발생하여도 약 30초 이내에 복구가 이루어진다면 손실이 발생하지 않습니다.</p> </div> <br/> <p>쉽게 설명하자면 다음과 같습니다.</p> <br/> <p>1. LAN 케이블이 빠졌다. 또는 Wi-Fi가 끊어졌다. (네트워크 연결이 끊어졌다.)</p> <p>2. 약 30초 이내에 LAN 케이블 또는 Wi-Fi를 복구했다. (네트워크 연결을 복구했다.)</p> <p>3. 손실이 발생하지 않는다.</p> <br/> <p>* 복구된 이후 네트워크가 안정적일 때 기능이 정상적으로 작동합니다.</p> <p>네트워크가 다시 끊어지거나 속도가 너무 느리다면 손실 방지에 실패할 수 있습니다.</p> <br/> <br/> <p class=\"title\">------------------------------ FAQ 2 ------------------------------</p> <br/> <p class=\"ask\">생방송 중간중간이 끊어져있어요.</p> <br/> <p>생방송 파일에서 중간중간 끊어진 것처럼 보이는 부분은 대부분 건너뛴 광고 구간이거나 네트워크 문제로 인한 손실 구간입니다.</p> <br/> <p>건너뛴 광고 구간, 손실된 부분 등의 상세 정보를 확인하려면 [다운로드 탭 > 다운로드 기록]을 확인하세요.</p> <p>예약 다운로드 기록도 동일하게 확인할 수 있습니다.</p> <br/> <p>추가로 3.1.0 버전에 추가된 '광고 차단' 설정을 꼭 확인하기 바랍니다.</p> <p>실시간 다운로드 및 예약 다운로드에 적용되는 기능입니다.</p> <p class=\"highlight\">권장 설정은 '구간 건너뛰기'입니다.</p> <p class=\"highlight\">예약 다운로드 설정을 꼭 확인하세요.</p> <br/> <br/> <p class=\"title\">------------------------------ FAQ 3 ------------------------------</p> <br/> <p class=\"ask\">[인코더 > Concat] 이 기능은 뭔가요?</p> <br/> <p>원본의 모든 메타데이터를 그대로 유지한 채로 병합하는 기능입니다.</p> <p>아무런 후처리가 없습니다.</p> <br/> <p class=\"title\">------------------------------ FAQ 4 ------------------------------</p> <br/> <p class=\"ask\">3.0 버전 안정화되었나요?</p> <br/> <p>네, 3.0 버전 안정화되었습니다.</p> </div> </body> <style> @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap'); * { font-family: 'Nanum Gothic', sans-serif; } p { margin: unset; } .title { padding: 2px; background: red; color: white; font-weight: bold; } .ask { padding: 2px; background: lightblue; font-weight: bold; } .highlight { color: red; font-weight: bold; } </style></html>",
-            "contentType": "html",
-            "blockExpiration": null,
-            "blockExpiry": null,
-            "buttons": [
-                {
-                    "text": "자세히",
-                    "action": "url:https://twitchlink.github.io/download/?lang=ko",
-                    "role": "accept",
-                    "default": true
-                },
-                {
-                    "text": "확인",
-                    "role": "accept"
-                }
-            ]
-        },
-        {
-            "targetVersion": ["3.0.0", "3.0.1", "3.0.2", "3.0.3", "3.0.4", "3.1.0", "3.1.1", "3.1.2"],
-            "contentId": "MissingSegments",
-            "contentVersion": "2023.09.04",
-            "title": "구간 누락 안내",
-            "content": "3.0 버전에서 구간 누락이 표시되는 이유는 프로그램 문제가 아니라 사용자 개인의 네트워크 문제입니다.\n\n네트워크 불안정으로 인해 누락되는 현상은 하위 버전에도 동일하게 존재했으나 하위 버전은 구간 누락을 표시하는 기능을 제공하지 않았기에 표시되지 않았던 것입니다.\n사용자 개인의 네트워크 성능을 점검하세요.\n\n3.0에서 강화된 네트워크 회복 기능은 안정적인 네트워크가 일시적인 문제로 잠시 끊어졌을 때 누락을 방지하는 기능입니다.\n네트워크가 지속적으로 불안정하거나 속도가 느린 등의 근본적인 문제는 사용자가 직접 해결해야 하는 문제입니다.",
-            "contentType": "text",
-            "blockExpiration": null,
-            "buttons": [
-                {
-                    "text": "확인",
-                    "role": "accept"
-                }
-            ]
-        },
         {
             "targetVersion": ["2.3.2", "2.4.0"],
             "contentId": "DeprecationNotice",
