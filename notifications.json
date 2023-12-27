@@ -82,21 +82,6 @@
                     "role": "accept"
                 }
             ]
-        },
-        {
-            "contentId": "DevHotteokChatBox",
-            "contentVersion": "DevHotteokChatBox",
-            "title": "Deleted Content",
-            "content": "Deleted Content",
-            "contentType": "text",
-            "modal": false,
-            "blockExpiration": null,
-            "buttons": [
-                {
-                    "text": "닫기",
-                    "role": "accept"
-                }
-            ]
         }
     ]
 }
