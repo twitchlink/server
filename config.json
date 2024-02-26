@@ -27,7 +27,8 @@
     "local": {
         "en": {},
         "ko": {
-            "CONTACT": {}
+            "CONTACT": {},
+            "SHOW_STATS": [1, []]
         }
     }
 }
