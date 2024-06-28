@@ -67,27 +67,6 @@
                     "role": "accept"
                 }
             ]
-        },
-        {
-            "contentId": "TwitchLinkKoreaNotice",
-            "contentVersion": "2024.02.26",
-            "title": "TwitchLink 대한민국/한국어 서비스 지원 종료",
-            "content": "<!DOCTYPE html>\n<html>\n\n<body>\n    <div style=\"padding: 10px;\">\n        <p class=\"title\">TwitchLink 대한민국/한국어 서비스 지원 종료</p>\n        <br/>\n        <br/>\n        <div class=\"highlight\">\n            <p>한국 시간 기준 2024년 2월 27일부로 한국 내 Twitch 운영이 종료됨에 따라 TwitchLink의 대한민국/한국어 서비스 지원이 종료됩니다.</p>\n        </div>\n        <br/>\n        <p class=\"ask\">무엇이 바뀌나요?</p>\n        <br/>\n        <p>프로그램의 기능이 삭제되거나 중단되지는 않습니다.</p>\n        <p>지원 종료 이후에도 프로그램의 기능은 유지됩니다.</p>\n        <br/>\n        <p>'대한민국/한국어'에 대한 지원이 종료됩니다.</p>\n        <p>'대한민국/한국어'에 대한 문의를 받지 않습니다.</p>\n        <p>'대한민국' 지역에만 적용되는 변경사항에 대응하지 않습니다.</p>\n        <p>'대한민국' 지역만을 위한 기능이 추가되거나 운영되지 않습니다.</p>\n        <p>'한국어'에 대한 정식 지원(번역 유지 보수 등)은 종료되며 추후 삭제 또는 방치될 수 있습니다.</p>\n    </div>\n</body>\n<style>\n    @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');\n\n    * {\n        font-family: 'Nanum Gothic', sans-serif;\n    }\n\n    p {\n        margin: unset;\n    }\n\n    .title {\n        padding: 10px;\n        background: #ff6528;\n        color: #000000;\n        font-size: 20pt;\n        font-weight: bold;\n    }\n\n    .highlight {\n        padding: 10px;\n        background: rgba(211, 211, 211, 0.3);\n    }\n\n    .ask {\n        padding: 10px;\n        background: #67d9ff;\n        font-weight: bold;\n    }\n</style>\n\n</html>",
-            "contentType": "html",
-            "modal": true,
-            "blockExpiration": null,
-            "buttons": [
-                {
-                    "text": "확인",
-                    "role": "accept"
-                },
-                {
-                    "text": "홈페이지 열기",
-                    "action": "url:https://twitchlink.github.io/?lang=ko",
-                    "role": "action",
-                    "default": true
-                }
-            ]
         }
     ]
 }
