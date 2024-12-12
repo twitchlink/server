@@ -53,20 +53,5 @@
         }
     ],
     "ko": [
-        {
-            "contentId": "TwitchKoreaNotice",
-            "contentVersion": "2024.02.26",
-            "title": "한국 Twitch에 대한 업데이트",
-            "content": "https://blog.twitch.tv/ko-kr/2023/12/05/an-update-on-twitch-in-korea/",
-            "contentType": "url",
-            "modal": true,
-            "blockExpiration": null,
-            "buttons": [
-                {
-                    "text": "확인",
-                    "role": "accept"
-                }
-            ]
-        }
     ]
 }
