@@ -20,36 +20,6 @@
                     "role": "reject"
                 }
             ]
-        },
-        {
-            "targetVersion": ["2.3.2", "2.4.0"],
-            "contentId": "DeprecationNotice",
-            "contentVersion": "2023.09.04",
-            "title": "Support for this version will soon end.",
-            "content": "In order to reliably provide the latest software features and services, support for lower versions will soon end.\nSupport for this version will end after September 11, 2023.\nPlease update to the latest version.",
-            "contentType": "text",
-            "modal": true,
-            "buttons": [
-                {
-                    "text": "OK",
-                    "role": "accept"
-                }
-            ]
-        },
-        {
-            "contentId": "TwitchInternalError",
-            "contentVersion": "2023.10.21",
-            "title": "Twitch Turbo and subscription recognition issue",
-            "content": "Accounts with ad-blocking benefits from Twitch Turbo or channel subscriptions are currently experiencing commercial alerts due to an internal issue with Twitch.\n\nWe've identified an issue in which the Twitch server does not correctly return the data value indicating the presence or absence of ads.\n\nFor users with ad-blocking benefits from Twitch Turbo or other subscriptions, please note that while a warning may be displayed, the content will not actually contain ads. There's no need for concern.",
-            "contentType": "text",
-            "modal": false,
-            "blockExpiration": null,
-            "buttons": [
-                {
-                    "text": "OK",
-                    "role": "accept"
-                }
-            ]
         }
     ],
     "ko": [
