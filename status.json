@@ -18,11 +18,11 @@
         "compatibleVersions": ["2.3.2", "2.4.0"],
         "updateNote": {
             "en": {
-                "content": "https://twitchlink.github.io/?popup=3.4.0",
+                "content": "https://twitchlink.github.io/release?version=3.4.0",
                 "contentType": "url"
             },
             "ko": {
-                "content": "https://twitchlink.github.io/?popup=3.4.0&lang=ko",
+                "content": "https://twitchlink.github.io/release?version=3.4.0&lang=ko",
                 "contentType": "url"
             }
         },
