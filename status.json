@@ -1,5 +1,5 @@
 {
-    "session": "2025.04.20",
+    "session": "2025.06.19",
     "sessionStrict": false,
     "operational": true,
     "operationalInfo": {
@@ -13,16 +13,16 @@
         }
     },
     "version": {
-        "latestVersion": "3.4.0",
+        "latestVersion": "3.5.0",
         "requiredVersion": "3.0.0",
         "compatibleVersions": ["2.3.2", "2.4.0"],
         "updateNote": {
             "en": {
-                "content": "https://twitchlink.github.io/release?version=3.4.0&lang=en",
+                "content": "https://twitchlink.github.io/release?version=3.5.0&lang=en",
                 "contentType": "url"
             },
             "ko": {
-                "content": "https://twitchlink.github.io/release?version=3.4.0&lang=ko",
+                "content": "https://twitchlink.github.io/release?version=3.5.0&lang=ko",
                 "contentType": "url"
             }
         },
