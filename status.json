@@ -13,16 +13,16 @@
         }
     },
     "version": {
-        "latestVersion": "3.5.0",
+        "latestVersion": "3.5.1",
         "requiredVersion": "3.0.0",
         "compatibleVersions": ["2.3.2", "2.4.0"],
         "updateNote": {
             "en": {
-                "content": "https://twitchlink.github.io/release?version=3.5.0&lang=en",
+                "content": "https://twitchlink.github.io/release?version=3.5.1&lang=en",
                 "contentType": "url"
             },
             "ko": {
-                "content": "https://twitchlink.github.io/release?version=3.5.0&lang=ko",
+                "content": "https://twitchlink.github.io/release?version=3.5.1&lang=ko",
                 "contentType": "url"
             }
         },
